@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    background: linear-gradient(lightblue, teal);
+}
+p{
+    margin-left: 370px;
+    text-align: center;
+        width: 600px;
+}
+img{
+    width: 400px;
+    border-radius: 50%;
+    margin-top: 100px;
+    margin-right: 440px;
+    margin-left: 440px;
+}
+
+.menu{
+    list-style:none;
+    cursor:pointer;
+    top: 0px;
+    right:3px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    background-color: white;
+    margin-top: 0px;
+}
+.bars{
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 20px;
+}
+.welcome{
+    margin-top: 100;
+}
+.bars:hover{
+    background-color: orangered;
+    font-family: 'Nova Flat', cursive;
+    
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+.line{
+    width: 50px;
+    height: 5px;
+    background-color: gold;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#players{
+    transition: transform .2s;
+    border-radius: 0%;
+}
+#players:hover{
+    transform: scale(0.9);
+}
+#neymar{
+    transition: transform .2s;
+    border-radius: 0%;
+}
+#neymar:hover{
+    transform: scale(0.9);
+}
+#contact a{
+    text-shadow: none !important;
